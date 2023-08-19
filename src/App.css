@@ -1,38 +1,65 @@
-.App {
+/* .App {
   text-align: center;
+} */
+.todo{
+  border: 2px solid white;
+  border-radius: 20px;
+}
+.span1{
+  text-transform: uppercase;
+  text-align: left;
+}
+.editBtn{
+  text-align: right;
+  background-color: red;
+  color: aliceblue;
+  box-shadow: 2px 2px 3px blue;
+  border: 2px solid red;
+  border-radius: 5px;
+}
+.deleteBtn{
+  text-align: right;
+  background-color: blue;
+  color: aliceblue;
+  border: 2px solid blue;
+  box-shadow: 2px 2px 3px red;
+  border-radius: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.maincontainer{
+  border: 2px solid black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.paraorbutton{
+  border: 2px solid black;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  margin: 0px auto;
+}
+.input{
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px gray;
+}
+.addBtn{
+  background-color: black;
+  color: aliceblue;
+  border-radius: 5px;
+  border: 2px solid white;
+  box-shadow: 2px 2px 3px gray;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.div input{
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.div button{
+  background-color: yellowgreen;
+  color: aliceblue;
+  border: 2px solid white;
+  border-radius: 5px;
+  
 }
